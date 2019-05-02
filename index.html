@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sourabh's IR Project</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            height: 7%;
+            background: black;
+            color: white;
+        }
+        .content{
+            width: 100%;
+            height: 80%;
+        }
+        .media{
+          /* text-align: center; */
+          /* display: block; */
+          width: 100%;
+          height: 70%;
+        }
+        .videos{
+            width: 50%;
+            float: left;
+            height: 100%;
+            /* height: 60%; */
+        }
+.text_content{
+    padding: 3%;
+    clear: both;
+
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="text-align:center">Sourabh Pardeshi - Intelligent Robotics Project Report - 801081931</h1>
+    </div>
+    <div class="content">
+        <div class="media">
+            <div class="videos">
+                    <video width="100%" height="100%"  controls>
+                            <source src="RoboDog_Large.mp4" type="video/mp4">
+                            <source src="RoboDog_Large.ogg" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                            </video>
+            </div>
+            <div class="videos">
+                    <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/kHBcVlqpvZ8">
+                    </iframe>
+                </div>
+ 
+        </div>
+   
+<div class="text_content">
+    <h1>Simulation of a Dancing Dog Robot in VREP</h1>
+    <p>
+        <h3>Summary:</h3>
+            The main objective of this project was to simulate the robot shown in above video in VREP using the
+            techniques from the Modern Robotics textbook. In this project i have implemented Forward Kinematics
+            & Inverse Kinematics for the robot.
+        <h3>Description:</h3>
+            For the robot style i have imported a stl of the Spot the robot dog by Boston Dynamics. The script RoboDog
+            is the main script that generates body movements & controls another non-threaded script which is in charge
+            of generating the walking movement. Since, VREP's simulation class automatically retrieves the updated
+            co-ordinates of the robot tips/end-effectors and generates the trajectory and path, i have modified the
+            MoveBody and BodyTarget scripts to replicate the motion of the robot doing somewhat of a Moonwalk.
+        <h3>Results:</h3>
+            The graph of the robot's movement and the calculation timings are in the screenshot video.
+    </p>
+</div>
+    </div>
+
+</body>
+</html>
