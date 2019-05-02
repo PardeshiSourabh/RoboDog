@@ -12,7 +12,6 @@ VREP Simulation of a Dancing Robot Dog
    
 <div class="text_content">
     <h1>Simulation of a Dancing Dog Robot in VREP</h1>
-    <video src="RoboDog_Large.mp4" width="320" height="200" controls preload></video>
     <p>
         <h3>Summary:</h3>
             The main objective of this project was to simulate the robot shown in above video in VREP using the
@@ -27,6 +26,10 @@ VREP Simulation of a Dancing Robot Dog
         <h3>Results:</h3>
             The graph of the robot's movement and the calculation timings are in the screenshot video.
     </p>
+    <video width="320" height="200" controls preload> 
+    <source src="./RoboDog_Large.mp4"></source> 
+    <source src="./RoboDog_Large.webm"></source> 
+    </video>
 </div>
     </div>
 
