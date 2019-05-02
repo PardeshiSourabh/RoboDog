@@ -6,7 +6,6 @@ VREP Simulation of a Dancing Robot Dog
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sourabh's IR Project</title>
     <div class="header">
         <h1 style="text-align:center">Sourabh Pardeshi - Intelligent Robotics Project Report - 801081931</h1>
     </div>
