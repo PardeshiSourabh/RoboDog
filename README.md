@@ -49,8 +49,8 @@ VREP Simulation of a Dancing Robot Dog
         <div class="media">
             <div class="videos">
                     <video width="100%" height="100%"  controls>
-                            <source src="RoboDog_Large.mp4" type="video/mp4">
-                            <source src="RoboDog_Large.ogg" type="video/ogg">
+                            <source src="RoboDog/RoboDog_Large.mp4" type="video/mp4">
+                            <source src="RoboDog/RoboDog_Large.ogg" type="video/ogg">
                             Your browser does not support HTML5 video.
                             </video>
             </div>
