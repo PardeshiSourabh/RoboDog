@@ -7,41 +7,6 @@ VREP Simulation of a Dancing Robot Dog
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sourabh's IR Project</title>
-    <style>
-        html,body{
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        .header{
-            height: 7%;
-            background: black;
-            color: white;
-        }
-        .content{
-            width: 100%;
-            height: 80%;
-        }
-        .media{
-          /* text-align: center; */
-          /* display: block; */
-          width: 100%;
-          height: 70%;
-        }
-        .videos{
-            width: 50%;
-            float: left;
-            height: 100%;
-            /* height: 60%; */
-        }
-.text_content{
-    padding: 3%;
-    clear: both;
-}
-    </style>
-</head>
-<body>
     <div class="header">
         <h1 style="text-align:center">Sourabh Pardeshi - Intelligent Robotics Project Report - 801081931</h1>
     </div>
