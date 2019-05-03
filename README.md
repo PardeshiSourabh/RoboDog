@@ -15,7 +15,7 @@ VREP Simulation of a Dancing Robot Dog
     <p>
         <h3>Summary:</h3>
             The main objective of this project was to simulate the robot shown in above video in VREP using the
-            techniques from the Modern Robotics textbook. In this project i have implemented Forward Kinematics
+            techniques from the Modern Robotics textbook. In this project i have studied the Forward Kinematics
             & Inverse Kinematics for the robot.
         <h3>Description:</h3>
             For the robot style i have imported a stl of the Spot the robot dog by Boston Dynamics. The script RoboDog
