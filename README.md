@@ -6,10 +6,7 @@ VREP Simulation of a Dancing Robot Dog
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <div class="header">
-        <h1 style="text-align:center">Sourabh Pardeshi - Intelligent Robotics Project Report - 801081931</h1>
-    </div>
-   
+    
 <div class="text_content">
     <h1>Simulation of a Dancing Dog Robot in VREP</h1>
     <p>
@@ -22,7 +19,7 @@ VREP Simulation of a Dancing Robot Dog
             is the main script that generates body movements & controls another non-threaded script which is in charge
             of generating the walking movement. Since, VREP's simulation class automatically retrieves the updated
             co-ordinates of the robot tips/end-effectors and generates the trajectory and path, i have modified the
-            MoveBody and BodyTarget scripts to replicate the motion of the robot doing somewhat of a Moonwalk.
+            MoveBody and BodyTarget scripts to replicate the motion of the robot doing a Moonwalk.
         <h3>Results:</h3>
             The graph of the robot's movement and the calculation timings are in the screenshot video.
     </p>
